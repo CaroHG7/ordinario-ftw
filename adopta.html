@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulario de Adopción</title>
+  <link rel="stylesheet" href="vista.css" />
+  <link rel="icon" href="logotipo.ico" />
+</head>
+<body>
+  <header role="banner">
+    <div class="logo-titulo">
+      <img src="img/logotipo.png" alt="Icono del sitio">
+      <h1>Formulario de Adopción</h1>
+    </div>
+
+    <nav role="navigation" aria-label="Navegación principal">
+      <ul>
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="adopta.html">Formulario de Adopción</a></li>
+        <li><a href="mascotas.html">Lista de Mascotas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <article>
+      <h2>Completa tus datos para adoptar</h2>
+
+      <form aria-label="Formulario de adopción" action="#" method="post">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mascota">Tipo de mascota:</label>
+        <select id="mascota" name="mascota">
+          <option value="perro">Perro</option>
+          <option value="gato">Gato</option>
+        </select>
+
+        <label for="nombreMascota">Nombre de la mascota que deseas adoptar:</label>
+        <input type="text" id="nombreMascota" name="nombreMascota" required />
+
+        <label for="motivacion">¿Por qué deseas adoptar?</label>
+        <textarea id="motivacion" name="motivacion" rows="4" required ></textarea>
+
+        <fieldset>
+          <legend>¿Tienes experiencia previa?</legend>
+          <input type="radio" id="si" name="experiencia" value="sí" />
+          <label for="si">Sí</label>
+          <input type="radio" id="no" name="experiencia" value="no" />
+          <label for="no">No</label>
+        </fieldset>
+
+        <label>
+          <input type="checkbox" name="compromiso" required />
+          Me comprometo a cuidar responsablemente de la mascota.
+        </label>
+
+        <button type="submit">Enviar solicitud</button>
+      </form>
+    </article>
+  </main>
+  
+  <footer role="contentinfo">
+    <p>&copy; 2025 Adopta una Mascota. Todos los derechos reservados: Carolina Herrera González</p>
+  </footer>
+
+</body>
+</html>

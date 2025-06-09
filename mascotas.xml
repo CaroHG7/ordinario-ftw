@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mascotas>
+  <mascota>
+    <nombre>Max</nombre>
+    <edad>2</edad>
+    <raza>Perro Labrador</raza>
+    <foto>img/max.jpg</foto>
+  </mascota>
+  <mascota>
+    <nombre>Luna</nombre>
+    <edad>1</edad>
+    <raza>Gatita Siamesa</raza>
+    <foto>img/luna.jpg</foto>
+  </mascota>
+  <mascota>
+    <nombre>Rocky</nombre>
+    <edad>3</edad>
+    <raza>Perro Bulldog</raza>
+    <foto>img/rocky.jpg</foto>
+  </mascota>
+  <mascota>
+    <nombre>Nala</nombre>
+    <edad>4</edad>
+    <raza>Perra Salchicha</raza>
+    <foto>img/nala.jpg</foto>
+  </mascota>
+  <mascota>
+    <nombre>Toby</nombre>
+    <edad>5</edad>
+    <raza>Perro Mestizo</raza>
+    <foto>img/toby.jpg</foto>
+  </mascota>
+  <mascota>
+    <nombre>Mimi</nombre>
+    <edad>2</edad>
+    <raza>Gatita Criolla</raza>
+    <foto>img/mimi.jpg</foto>
+  </mascota>
+</mascotas>
